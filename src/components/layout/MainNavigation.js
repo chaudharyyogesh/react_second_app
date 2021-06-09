@@ -15,7 +15,7 @@ function MainNavigation() {
   }
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <div className={classes.logo}>TravelItALL</div>
       <nav>
         <ul>
           <li>
@@ -24,7 +24,7 @@ function MainNavigation() {
               onClick={clickHandlerAll}
               className={active === "all" ? classes.active : null}
             >
-              All meetup
+              All Dest
             </Link>
           </li>
           <li>
@@ -33,7 +33,7 @@ function MainNavigation() {
               onClick={clickHandlerNew}
               className={active === "new" ? classes.active : null}
             >
-              New meetup
+              New Dest
             </Link>
           </li>
           <li>
